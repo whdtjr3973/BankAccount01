@@ -60,6 +60,7 @@ public class BankService {
 				return vo;
 
 			}
+			
 		}
 		return null;
 	}
@@ -92,6 +93,7 @@ public class BankService {
 		// Java 8  이상에서 사용하는 새로운 날짜
 		LocalDate localDate = LocalDate.now();
 		vo.setDate(localDate.toString());
+		
 		
 		System.out.println("================================");
 		System.out.println(vo);
